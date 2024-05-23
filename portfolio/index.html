@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-------------
+        HEADER SECTION
+        ---------------->
+      <header>
+        <div class="logo">Logo</div>
+        <div class="menu">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Me</li>
+            <li>Portfolio</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+        <div class="hire_me">Hire Me</div>
+        <div class="menu_icon">
+          <svg
+            class="ham ham6"
+            viewBox="0 0 100 100"
+            width="80"
+            onclick="this.classList.toggle('active')"
+          >
+            <path
+              class="line top"
+              d="m 30,33 h 40 c 13.100415,0 14.380204,31.80258 6.899646,33.421777 -24.612039,5.327373 9.016154,-52.337577 -12.75751,-30.563913 l -28.284272,28.284272"
+            />
+            <path
+              class="line middle"
+              d="m 70,50 c 0,0 -32.213436,0 -40,0 -7.786564,0 -6.428571,-4.640244 -6.428571,-8.571429 0,-5.895471 6.073743,-11.783399 12.286435,-5.570707 6.212692,6.212692 28.284272,28.284272 28.284272,28.284272"
+            />
+            <path
+              class="line bottom"
+              d="m 69.575405,67.073826 h -40 c -13.100415,0 -14.380204,-31.80258 -6.899646,-33.421777 24.612039,-5.327373 -9.016154,52.337577 12.75751,30.563913 l 28.284272,-28.284272"
+            />
+          </svg>
+        </div>
+      </header>
+
+      <!-- HERO SECTION -->
+
+      <section class="hero-section">
+        <h1>HI I'M <span>Jenny Wilson</span></h1>
+        <div class="social_media">
+          <ul>
+            <li>
+              <img src="images/linkedin.png" alt="linkedin" />
+            </li>
+            <li>
+              <img src="images/youtube.png" alt="youtube" />
+            </li>
+            <li>
+              <img src="images/instagram.png" alt="instagram" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SERVICES SECTION -->
+
+      <section class="services">
+        <h1>Services</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          quod blanditiis non.
+        </p>
+
+        <div class="service-container">
+          <div class="webdevelopment">
+            <img src="images/Website Design.png" alt="webdevelopment" />
+            <h2>Landing Page Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              corporis accusamus debitis.
+            </p>
+          </div>
+
+          <div class="appdevelopment">
+            <img src="images/App.png" alt="appdevelopment" />
+            <h2>Mobile App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              corporis accusamus debitis.
+            </p>
+          </div>
+
+          <div class="webdesign">
+            <img src="images/Wireframe.png" alt="webdesign" />
+            <h2>Wireframe Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              corporis accusamus debitis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="aboutus">
+        <div class="about_me">
+          <h1>About me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At sequi
+            numquam natus.
+          </p>
+          <div class="about_me_container">
+            <div class="about_me_img">
+              <img src="images/developer.png" alt="developer" />
+            </div>
+            <div class="about_me_content">
+              A software engineer, the modern-day architect of digital realms,
+              navigates the ethereal landscapes of code, sculpting intangible
+              structures that shape our technological world. With fingers poised
+              over keyboards like virtuoso pianists, they compose symphonies of
+              logic, their minds a labyrinth of algorithms and solutions.Their
+              canvas is a screen, a vast expanse where lines of code dance in
+              intricate patterns, weaving the fabric of programs and
+              applications. Each keystroke is a brushstroke, crafting intricate
+              architectures and breathing life into innovative designs.In this
+              digital atelier.
+              <div class="cv_btn">Download CV</div>
+            </div>
+          </div>
+        </div>
+        <div class="our_skills">
+            <div class="skill_tags">
+                <img src="images/html.png" alt="html">
+                <h3>html</h3>
+            </div>
+            <div class="skill_tags">
+                <img src="images/css.png" alt="css">
+                <h3>css</h3>
+            </div>
+            <div class="skill_tags">
+                <img src="images/boostrap.png" alt="boostrap">
+                <h3>boostrap</h3>
+            </div>
+            <div class="skill_tags">
+                <img src="images/javascript.png" alt="javascript">
+                <h3>javascript</h3>
+            </div>
+            <div class="skill_tags">
+                <img src="images/jquery.png" alt="jquery">
+                <h3>jquery</h3>
+            </div>
+            <div class="skill_tags">
+                <img src="images/wordpress.png" alt="wordpress">
+                <h3>wordpress</h3>
+            </div>
+            <div class="skill_tags">
+                <img src="images/Git.png" alt="Git">
+                <h3>Git</h3>
+            </div>
+            <div class="skill_tags">
+                <img src="images/github.png" alt="github">
+                <h3>github</h3>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- PORTFOLIO SECTION -->
+
+      <section class="portfolio">
+        <h1>Portfolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident odio architecto odit.</p>
+        <div class="project-section">
+            <div class="projects">
+                <img src="images/project1.png" alt="project1">
+            </div>
+            <div class="projects">
+                <img src="images/project2.png" alt="project2">
+            </div>
+            <div class="projects">
+                <img src="images/project3.png" alt="project3">
+            </div>
+            <div class="projects">
+                <img src="images/project3.png" alt="project3">
+            </div>
+            <div class="projects">
+                <img src="images/project2.png" alt="project2">
+            </div>
+            <div class="projects">
+                <img src="images/project1.png" alt="project1">
+            </div>
+            <div class="projects">
+                <img src="images/project1.png" alt="project1">
+            </div>
+            <div class="projects">
+                <img src="images/project2.png" alt="project2">
+            </div>
+            <div class="projects">
+                <img src="images/project3.png" alt="project3">
+            </div>
+           
+        </div>
+        <div class="see_more">See More</div>
+      </section>
+    </div>
+      <!-- CONTACT SECTION -->
+
+      <section class="contactus">
+        <h1>Conatact Me</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint doloremque voluptatibus libero.</p>
+        <form action="#">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone Number">
+            <input type="password" placeholder="Enter Password">
+            <input type="password" placeholder="Confirm Password">
+            <button>Send</button>
+        </form>
+      </section>
+
+
+      <!-- FOOTER SECTION -->
+      <footer>
+        <div class="brand_logo">
+            <div class="logomark">logo</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, mollitia. Ut eligendi eum tempora quia, qui, asperiores rerum soluta totam maxime, iure consectetur expedita?</p>
+            <div class="social_media">
+                <ul>
+                    <li>
+                        <img src="images/linkedin.png" alt="linkedin">
+                    </li>
+                    <li>
+                        <img src="images/youtube.png" alt="youtube">
+                    </li>
+                    <li>
+                        <img src="images/instagram.png" alt="instagram">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>About Me</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Contact Me</li>
+            </ul>
+        </div>
+        <div class="our_services">
+            <ul>
+                <li>Services</li>
+                <li>web development</li>
+                <li>web design</li>
+                <li>app development</li>
+                <li>app design</li>
+                <li>wordpress</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <ul>
+                <li>Contact info</li>
+                <li><span><img src="images/call.png" alt="call"></span>9876543210</li>
+                <li><span><img src="images/map.png" alt="map"></span>shiloh, Hawali 81063</li>
+                <li><span><img src="images/Message.png" alt="Message"></span>uiuniversity@gmail.com</li>
+            </ul>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+<!-- SCRIPT FILES -->
+
+<script src="jQuery.js"></script>
+<script src="main.js"></script>
+
+    
+  </body>
+</html>
